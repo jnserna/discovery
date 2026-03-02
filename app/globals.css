@@ -1,0 +1,216 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-body);
+  --font-display: var(--font-display);
+  --color-sidebar-ring: var(--sidebar-ring);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar: var(--sidebar);
+  --color-chart-5: var(--chart-5);
+  --color-chart-4: var(--chart-4);
+  --color-chart-3: var(--chart-3);
+  --color-chart-2: var(--chart-2);
+  --color-chart-1: var(--chart-1);
+  --color-ring: var(--ring);
+  --color-input: var(--input);
+  --color-border: var(--border);
+  --color-destructive: var(--destructive);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-accent: var(--accent);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-muted: var(--muted);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-secondary: var(--secondary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary: var(--primary);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-popover: var(--popover);
+  --color-card-foreground: var(--card-foreground);
+  --color-card: var(--card);
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --radius-2xl: calc(var(--radius) + 8px);
+  --radius-3xl: calc(var(--radius) + 12px);
+  --radius-4xl: calc(var(--radius) + 16px);
+}
+
+/* ── innerBloom Therapeutic Palette ─────────────────────── */
+/* Light: warm neutrals + soft teal primary + sage accent    */
+:root {
+  --radius: 0.75rem;
+
+  /* Backgrounds */
+  --background: oklch(0.97 0.008 80);       /* warm cream */
+  --foreground: oklch(0.22 0.015 250);      /* deep navy-grey */
+
+  /* Cards / popovers */
+  --card: oklch(1 0 0);
+  --card-foreground: oklch(0.22 0.015 250);
+  --popover: oklch(1 0 0);
+  --popover-foreground: oklch(0.22 0.015 250);
+
+  /* Primary — soft teal #4A9B8E */
+  --primary: oklch(0.62 0.08 185);
+  --primary-foreground: oklch(0.99 0 0);
+
+  /* Secondary — light teal tint */
+  --secondary: oklch(0.92 0.03 185);
+  --secondary-foreground: oklch(0.35 0.06 185);
+
+  /* Muted */
+  --muted: oklch(0.94 0.005 80);
+  --muted-foreground: oklch(0.52 0.01 250);
+
+  /* Accent — warm sage #7BAF7A */
+  --accent: oklch(0.93 0.04 140);
+  --accent-foreground: oklch(0.32 0.07 140);
+
+  /* Destructive */
+  --destructive: oklch(0.577 0.245 27.325);
+
+  /* Borders / inputs */
+  --border: oklch(0.88 0.01 185);
+  --input: oklch(0.88 0.01 185);
+  --ring: oklch(0.62 0.08 185);
+
+  /* Charts (calming palette) */
+  --chart-1: oklch(0.62 0.08 185);   /* teal */
+  --chart-2: oklch(0.70 0.08 140);   /* sage */
+  --chart-3: oklch(0.78 0.10 100);   /* warm yellow-green */
+  --chart-4: oklch(0.65 0.09 220);   /* periwinkle */
+  --chart-5: oklch(0.72 0.10 160);   /* mint */
+
+  /* Sidebar */
+  --sidebar: oklch(0.96 0.01 185);
+  --sidebar-foreground: oklch(0.22 0.015 250);
+  --sidebar-primary: oklch(0.62 0.08 185);
+  --sidebar-primary-foreground: oklch(0.99 0 0);
+  --sidebar-accent: oklch(0.92 0.03 185);
+  --sidebar-accent-foreground: oklch(0.35 0.06 185);
+  --sidebar-border: oklch(0.88 0.01 185);
+  --sidebar-ring: oklch(0.62 0.08 185);
+}
+
+/* ── Dark Mode ────────────────────────────────────────────── */
+/* Dark: deep navy + slightly lighter cards + teal primary    */
+.dark {
+  --background: oklch(0.19 0.02 255);       /* deep navy #1A1F2E */
+  --foreground: oklch(0.93 0.008 80);       /* warm off-white */
+
+  --card: oklch(0.23 0.02 255);
+  --card-foreground: oklch(0.93 0.008 80);
+  --popover: oklch(0.23 0.02 255);
+  --popover-foreground: oklch(0.93 0.008 80);
+
+  --primary: oklch(0.68 0.09 185);          /* slightly lighter teal in dark */
+  --primary-foreground: oklch(0.12 0.015 255);
+
+  --secondary: oklch(0.28 0.03 255);
+  --secondary-foreground: oklch(0.82 0.03 185);
+
+  --muted: oklch(0.27 0.02 255);
+  --muted-foreground: oklch(0.65 0.01 250);
+
+  --accent: oklch(0.29 0.04 140);
+  --accent-foreground: oklch(0.82 0.06 140);
+
+  --destructive: oklch(0.704 0.191 22.216);
+
+  --border: oklch(1 0 0 / 12%);
+  --input: oklch(1 0 0 / 15%);
+  --ring: oklch(0.68 0.09 185);
+
+  --chart-1: oklch(0.68 0.09 185);
+  --chart-2: oklch(0.72 0.09 140);
+  --chart-3: oklch(0.78 0.10 100);
+  --chart-4: oklch(0.65 0.09 220);
+  --chart-5: oklch(0.72 0.10 160);
+
+  --sidebar: oklch(0.23 0.02 255);
+  --sidebar-foreground: oklch(0.93 0.008 80);
+  --sidebar-primary: oklch(0.68 0.09 185);
+  --sidebar-primary-foreground: oklch(0.12 0.015 255);
+  --sidebar-accent: oklch(0.28 0.03 255);
+  --sidebar-accent-foreground: oklch(0.82 0.03 185);
+  --sidebar-border: oklch(1 0 0 / 12%);
+  --sidebar-ring: oklch(0.68 0.09 185);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-family: var(--font-body), system-ui, sans-serif;
+    font-size: 17px;
+    line-height: 1.65;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-display), Georgia, serif;
+    line-height: 1.25;
+  }
+  /* Smooth scrolling */
+  html {
+    scroll-behavior: smooth;
+  }
+  /* Readable line-length on large screens */
+  .prose-reading {
+    max-width: 68ch;
+  }
+}
+
+/* ── Gradient utilities (from design reference) ───────────── */
+.gradient-sage {
+  background: linear-gradient(135deg, oklch(0.92 0.03 185), oklch(0.93 0.04 140));
+}
+.gradient-warm {
+  background: linear-gradient(135deg, oklch(0.94 0.02 80), oklch(0.92 0.03 185));
+}
+.gradient-hero {
+  background: linear-gradient(160deg, oklch(0.92 0.03 185), oklch(0.97 0.008 80), oklch(0.94 0.02 80));
+}
+.text-gradient-primary {
+  background: linear-gradient(135deg, oklch(0.62 0.08 185), oklch(0.65 0.09 220));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* ── Utility: gentle gradient backgrounds ─────────────────── */
+.bg-gradient-calm {
+  background: linear-gradient(135deg, oklch(0.97 0.008 80) 0%, oklch(0.94 0.02 185) 100%);
+}
+.dark .bg-gradient-calm {
+  background: linear-gradient(135deg, oklch(0.19 0.02 255) 0%, oklch(0.22 0.025 215) 100%);
+}
+
+/* ── Scrollbar styling ────────────────────────────────────── */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: oklch(0.75 0.04 185);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: oklch(0.62 0.08 185);
+}

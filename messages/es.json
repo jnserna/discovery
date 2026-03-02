@@ -1,0 +1,200 @@
+{
+  "nav": {
+    "chat": "Chat",
+    "journal": "Diario",
+    "assessments": "Evaluaciones",
+    "profile": "Perfil",
+    "wheelOfLife": "Rueda de la Vida",
+    "goals": "Metas",
+    "memories": "Memorias",
+    "login": "Iniciar Sesión",
+    "logout": "Cerrar Sesión",
+    "signup": "Crear Cuenta"
+  },
+  "landing": {
+    "hero": {
+      "title": "Tu Compañero Personal de Psicología",
+      "subtitle": "Un espacio seguro para explorar tu mente, conocerte mejor y crecer — disponible en inglés y español.",
+      "cta": "Empezar a Hablar",
+      "ctaSecondary": "Explorar Funciones"
+    },
+    "features": {
+      "chat": {
+        "title": "Chat Terapéutico",
+        "description": "Habla con un compañero de IA empático sobre tus sentimientos, miedos y pensamientos — sin necesidad de registrarte."
+      },
+      "journal": {
+        "title": "Diario Personal",
+        "description": "Escribe sobre tu día, tus emociones, tu gratitud. Agrega fotos y enlaces a momentos significativos."
+      },
+      "assessments": {
+        "title": "Conócete",
+        "description": "Descubre tu tipo de Eneagrama, estilo de apego, lenguajes del amor y más mediante evaluaciones guiadas."
+      },
+      "profile": {
+        "title": "Perfil de Personalidad",
+        "description": "Construye tu perfil único y recibe perspectivas generadas por IA sobre tu personalidad y caminos de crecimiento."
+      }
+    },
+    "disclaimer": "innerBloom no reemplaza la terapia profesional. Si estás en crisis, por favor contacta a un profesional de salud mental."
+  },
+  "chat": {
+    "placeholder": "Comparte lo que tienes en mente...",
+    "send": "Enviar",
+    "newSession": "Nueva Sesión",
+    "sessions": "Sesiones Anteriores",
+    "typing": "innerBloom está escuchando...",
+    "anonymousNote": "Inicia sesión para guardar el historial de tu conversación.",
+    "welcome": "Hola, estoy aquí para escucharte. ¿Cómo te sientes hoy?"
+  },
+  "journal": {
+    "title": "Mi Diario",
+    "newEntry": "Nueva Entrada",
+    "mood": "¿Cómo te sientes?",
+    "writeHere": "Escribe sobre tu día, sentimientos, pensamientos...",
+    "addImage": "Agregar Imagen",
+    "addUrl": "Agregar Enlace",
+    "save": "Guardar Entrada",
+    "loginRequired": "Inicia sesión para acceder a tu diario.",
+    "entries": "Entradas",
+    "noEntries": "Tu diario está vacío. Escribe tu primera entrada."
+  },
+  "assessments": {
+    "title": "Conócete",
+    "subtitle": "Herramientas respaldadas por la ciencia para entender tu personalidad, relaciones y motivaciones.",
+    "start": "Iniciar Evaluación",
+    "continue": "Continuar",
+    "retake": "Repetir",
+    "results": "Tus Resultados",
+    "next": "Siguiente",
+    "back": "Anterior",
+    "submit": "Ver Resultados",
+    "progress": "{current} de {total}",
+    "enneagram": {
+      "title": "Eneagrama",
+      "description": "Comprende tus motivaciones principales y por qué haces lo que haces.",
+      "questions": 10
+    },
+    "attachment": {
+      "title": "Estilo de Apego",
+      "description": "Descubre cómo te conectas con los demás en las relaciones.",
+      "questions": 15
+    },
+    "bigFive": {
+      "title": "Los Cinco Grandes (OCEAN)",
+      "description": "Rasgos de personalidad respaldados por la ciencia: prácticos y reveladores.",
+      "questions": 20
+    },
+    "loveLanguages": {
+      "title": "Lenguajes del Amor",
+      "description": "Descubre cómo das y recibes amor.",
+      "questions": 15
+    },
+    "values": {
+      "title": "Evaluación de Valores",
+      "description": "Clasifica tus valores personales más importantes para entender qué te impulsa.",
+      "count": 20
+    },
+    "strengths": {
+      "title": "Descubridor de Fortalezas",
+      "description": "Identifica tus principales fortalezas de carácter.",
+      "questions": 20
+    },
+    "couples": {
+      "title": "Parejas",
+      "description": "Herramientas de compatibilidad y perfil de deseos para relaciones."
+    }
+  },
+  "profile": {
+    "title": "Perfil de Personalidad",
+    "subtitle": "Cuéntanos sobre ti y recibe perspectivas psicológicas personalizadas.",
+    "gender": "Género (opcional)",
+    "birthday": "Fecha de Nacimiento",
+    "livingEnvironment": "Entorno de Vida",
+    "education": "Nivel Educativo",
+    "sports": "Deporte / Actividad Física Favorita",
+    "hobbies": "Pasatiempos e Intereses",
+    "relationship": "Estado de Relación (opcional)",
+    "career": "Situación Laboral / Profesional",
+    "enneatype": "Eneagrama (opcional)",
+    "enneatypeLink": "¿No conoces tu Eneagrama? Descúbrelo →",
+    "favoriteSinger": "Cantante Favorito Absoluto",
+    "favoriteMovie": "Película Favorita Absoluta",
+    "generate": "Generar Mis Perspectivas",
+    "save": "Guardar Perfil",
+    "getHoroscope": "Ver Mi Horóscopo",
+    "zodiac": "Tu Signo del Zodiaco",
+    "insights": "Tus Perspectivas de Personalidad"
+  },
+  "wheelOfLife": {
+    "title": "Rueda de la Vida",
+    "subtitle": "Califica tu satisfacción actual en cada área de vida (1–10).",
+    "areas": {
+      "career": "Carrera",
+      "finances": "Finanzas",
+      "health": "Salud",
+      "family": "Familia",
+      "romance": "Romance",
+      "growth": "Crecimiento Personal",
+      "fun": "Diversión y Recreación",
+      "environment": "Entorno"
+    },
+    "save": "Guardar Instantánea",
+    "history": "Instantáneas Anteriores",
+    "loginRequired": "Inicia sesión para guardar tu Rueda de la Vida."
+  },
+  "goals": {
+    "title": "Mis Metas",
+    "add": "Agregar Meta",
+    "noGoals": "Sin metas aún. ¡Establece tu primera meta!",
+    "status": {
+      "active": "Activa",
+      "done": "Completada"
+    },
+    "loginRequired": "Inicia sesión para rastrear tus metas."
+  },
+  "memories": {
+    "title": "Cosas que Me Gusta Recordar",
+    "subtitle": "Crea colecciones de recuerdos que te importan.",
+    "addCollection": "Nueva Colección",
+    "addItem": "Agregar Elemento",
+    "examples": "ej. Autos que he tenido, Países que he visitado...",
+    "loginRequired": "Inicia sesión para gestionar tus memorias."
+  },
+  "auth": {
+    "email": "Correo electrónico",
+    "password": "Contraseña",
+    "login": "Iniciar Sesión",
+    "signup": "Crear Cuenta",
+    "orContinueWith": "o continúa con",
+    "google": "Continuar con Google",
+    "noAccount": "¿No tienes cuenta?",
+    "haveAccount": "¿Ya tienes cuenta?",
+    "forgotPassword": "¿Olvidaste tu contraseña?",
+    "name": "Nombre Completo"
+  },
+  "crisis": {
+    "title": "¿Necesitas ayuda inmediata?",
+    "us": "988 Suicide & Crisis Lifeline (EEUU): Llama o envía SMS al 988",
+    "es": "Teléfono de la Esperanza (España): 717 003 717",
+    "mx": "SAPTEL (México): 55 5259-8121",
+    "chat": "Crisis Text Line: Envía HOME al 741741"
+  },
+  "common": {
+    "loading": "Cargando...",
+    "save": "Guardar",
+    "cancel": "Cancelar",
+    "delete": "Eliminar",
+    "edit": "Editar",
+    "close": "Cerrar",
+    "back": "Atrás",
+    "next": "Siguiente",
+    "yes": "Sí",
+    "no": "No",
+    "or": "o",
+    "and": "y",
+    "darkMode": "Modo oscuro",
+    "lightMode": "Modo claro",
+    "language": "Idioma"
+  }
+}

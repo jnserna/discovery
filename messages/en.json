@@ -1,0 +1,200 @@
+{
+  "nav": {
+    "chat": "Chat",
+    "journal": "Journal",
+    "assessments": "Assessments",
+    "profile": "Profile",
+    "wheelOfLife": "Wheel of Life",
+    "goals": "Goals",
+    "memories": "Memories",
+    "login": "Sign In",
+    "logout": "Sign Out",
+    "signup": "Create Account"
+  },
+  "landing": {
+    "hero": {
+      "title": "Your Personal Psychology Companion",
+      "subtitle": "A safe space to explore your mind, understand yourself, and grow — available in English and Spanish.",
+      "cta": "Start Talking",
+      "ctaSecondary": "Explore Features"
+    },
+    "features": {
+      "chat": {
+        "title": "Therapy Chat",
+        "description": "Talk with an empathetic AI companion about your feelings, fears, and thoughts — no login required."
+      },
+      "journal": {
+        "title": "Personal Journal",
+        "description": "Write about your day, your feelings, your gratitude. Add photos and links to meaningful moments."
+      },
+      "assessments": {
+        "title": "Know Yourself",
+        "description": "Discover your Enneagram type, attachment style, love languages, and more through guided assessments."
+      },
+      "profile": {
+        "title": "Personality Profile",
+        "description": "Build your unique profile and receive AI-generated insights about your personality and growth paths."
+      }
+    },
+    "disclaimer": "innerBloom is not a replacement for professional therapy. If you are in crisis, please reach out to a mental health professional."
+  },
+  "chat": {
+    "placeholder": "Share what's on your mind...",
+    "send": "Send",
+    "newSession": "New Session",
+    "sessions": "Past Sessions",
+    "typing": "innerBloom is listening...",
+    "anonymousNote": "Sign in to save your conversation history.",
+    "welcome": "Hi, I'm here to listen. How are you feeling today?"
+  },
+  "journal": {
+    "title": "My Journal",
+    "newEntry": "New Entry",
+    "mood": "How are you feeling?",
+    "writeHere": "Write about your day, feelings, thoughts...",
+    "addImage": "Add Image",
+    "addUrl": "Add Link",
+    "save": "Save Entry",
+    "loginRequired": "Sign in to access your journal.",
+    "entries": "Entries",
+    "noEntries": "Your journal is empty. Write your first entry."
+  },
+  "assessments": {
+    "title": "Know Yourself",
+    "subtitle": "Science-backed tools to understand your personality, relationships, and motivations.",
+    "start": "Start Assessment",
+    "continue": "Continue",
+    "retake": "Retake",
+    "results": "Your Results",
+    "next": "Next",
+    "back": "Back",
+    "submit": "See Results",
+    "progress": "{current} of {total}",
+    "enneagram": {
+      "title": "Enneagram",
+      "description": "Understand your core motivations and why you do what you do.",
+      "questions": 10
+    },
+    "attachment": {
+      "title": "Attachment Style",
+      "description": "Discover how you connect with others in relationships.",
+      "questions": 15
+    },
+    "bigFive": {
+      "title": "Big Five (OCEAN)",
+      "description": "Science-backed personality traits: practical and insightful.",
+      "questions": 20
+    },
+    "loveLanguages": {
+      "title": "Love Languages",
+      "description": "Find out how you give and receive love.",
+      "questions": 15
+    },
+    "values": {
+      "title": "Values Assessment",
+      "description": "Rank your top personal values to understand what drives you.",
+      "count": 20
+    },
+    "strengths": {
+      "title": "Strengths Finder",
+      "description": "Identify your top character strengths.",
+      "questions": 20
+    },
+    "couples": {
+      "title": "Couples",
+      "description": "Compatibility and desire profile tools for relationships."
+    }
+  },
+  "profile": {
+    "title": "Personality Profile",
+    "subtitle": "Tell us about yourself and receive personalized psychological insights.",
+    "gender": "Gender (optional)",
+    "birthday": "Birthday",
+    "livingEnvironment": "Living Environment",
+    "education": "Education Level",
+    "sports": "Favorite Sport / Physical Activity",
+    "hobbies": "Hobbies & Interests",
+    "relationship": "Relationship Status (optional)",
+    "career": "Career / Work Situation",
+    "enneatype": "Enneatype (optional)",
+    "enneatypeLink": "Don't know your Enneatype? Find out →",
+    "favoriteSinger": "Absolute Favorite Singer",
+    "favoriteMovie": "Absolute Favorite Movie",
+    "generate": "Generate My Insights",
+    "save": "Save Profile",
+    "getHoroscope": "Get My Horoscope",
+    "zodiac": "Your Zodiac Sign",
+    "insights": "Your Personality Insights"
+  },
+  "wheelOfLife": {
+    "title": "Wheel of Life",
+    "subtitle": "Rate your current satisfaction in each life area (1–10).",
+    "areas": {
+      "career": "Career",
+      "finances": "Finances",
+      "health": "Health",
+      "family": "Family",
+      "romance": "Romance",
+      "growth": "Personal Growth",
+      "fun": "Fun & Recreation",
+      "environment": "Environment"
+    },
+    "save": "Save Snapshot",
+    "history": "Past Snapshots",
+    "loginRequired": "Sign in to save your Wheel of Life."
+  },
+  "goals": {
+    "title": "My Goals",
+    "add": "Add Goal",
+    "noGoals": "No goals yet. Set your first goal!",
+    "status": {
+      "active": "Active",
+      "done": "Done"
+    },
+    "loginRequired": "Sign in to track your goals."
+  },
+  "memories": {
+    "title": "Things I Like to Remember",
+    "subtitle": "Create collections of memories that matter to you.",
+    "addCollection": "New Collection",
+    "addItem": "Add Item",
+    "examples": "e.g. Cars I've owned, Countries I've visited...",
+    "loginRequired": "Sign in to manage your memories."
+  },
+  "auth": {
+    "email": "Email",
+    "password": "Password",
+    "login": "Sign In",
+    "signup": "Create Account",
+    "orContinueWith": "or continue with",
+    "google": "Continue with Google",
+    "noAccount": "Don't have an account?",
+    "haveAccount": "Already have an account?",
+    "forgotPassword": "Forgot password?",
+    "name": "Full Name"
+  },
+  "crisis": {
+    "title": "Need immediate help?",
+    "us": "988 Suicide & Crisis Lifeline (US): Call or text 988",
+    "es": "Teléfono de la Esperanza (Spain): 717 003 717",
+    "mx": "SAPTEL (Mexico): 55 5259-8121",
+    "chat": "Crisis Text Line: Text HOME to 741741"
+  },
+  "common": {
+    "loading": "Loading...",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "close": "Close",
+    "back": "Back",
+    "next": "Next",
+    "yes": "Yes",
+    "no": "No",
+    "or": "or",
+    "and": "and",
+    "darkMode": "Dark mode",
+    "lightMode": "Light mode",
+    "language": "Language"
+  }
+}
